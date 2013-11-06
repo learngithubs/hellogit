@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<script>
+	function mOver(){
+		var p1=document.getElementById("div1");
+		if(p1.innerHTML="把鼠标移到上面"){ p1.innerHTML="点击";}
+		}
+	function mOut(){
+		var p1=document.getElementById("div1");
+		if(p1.innerHTML="点击"){ p1.innerHTML="把鼠标移到上面";}
+		}
+</script>
+
+</head>
+
+<body>
+	<p id="div1" style="width:100px;height:100px;background-color:green;font-family:Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', serif;font-size:14px;" onMouseOver="mOver()" onMouseOut="mOut()">把鼠标移到上面</p>
+
+
+</body>
+</html>
